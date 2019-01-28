@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="AutomationSuite1" verbose="1" >
+  <test name="AutomationSuite Tests" >
+    <classes>
+       <class name="comaniket.automation.ecommerce.DemoTest" />
+       <class name="comaniket.automation.ecommerce.DemoTest2" />
+    </classes>
+  </test> 
+</suite>
