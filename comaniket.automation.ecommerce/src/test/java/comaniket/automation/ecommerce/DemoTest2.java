@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class DemoTest2 {
 	
 	@Test
-	public void Sum()
+	public void Google()
 	{
 		
 		System.setProperty("webdriver.chrome.driver", "H:\\Eclipse IDE\\chromedriver_win32\\chromedriver.exe");
