@@ -16,7 +16,7 @@ public class DemoTest2 {
 		
 		driver.get("https://www.flipkart.com/");
 		
-		//Quit browser
+		//Quit  browser
 		
 		driver.quit();
 		
