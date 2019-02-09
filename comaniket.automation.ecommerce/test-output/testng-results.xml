@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17181" started-at="2019-01-31T14:50:32Z" finished-at="2019-01-31T14:50:49Z">
+  <suite name="Default suite" duration-ms="27346" started-at="2019-02-09T16:16:46Z" finished-at="2019-02-09T16:17:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17181" started-at="2019-01-31T14:50:32Z" finished-at="2019-01-31T14:50:49Z">
-      <class name="comaniket.automation.ecommerce.DemoTest2">
-        <test-method status="PASS" signature="Google()[pri:0, instance:comaniket.automation.ecommerce.DemoTest2@402f32ff]" name="Google" duration-ms="17141" started-at="2019-01-31T20:20:32Z" finished-at="2019-01-31T20:20:49Z">
+    <test name="Default test" duration-ms="27346" started-at="2019-02-09T16:16:46Z" finished-at="2019-02-09T16:17:13Z">
+      <class name="comaniket.automation.ecommerce.FileUploadUsingAutoIt">
+        <test-method status="PASS" signature="FileUpload()[pri:0, instance:comaniket.automation.ecommerce.FileUploadUsingAutoIt@402f32ff]" name="FileUpload" duration-ms="27320" started-at="2019-02-09T21:46:46Z" finished-at="2019-02-09T21:47:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Google -->
-        <test-method status="PASS" signature="Subtract()[pri:0, instance:comaniket.automation.ecommerce.DemoTest2@402f32ff]" name="Subtract" duration-ms="4" started-at="2019-01-31T20:20:49Z" finished-at="2019-01-31T20:20:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Subtract -->
-      </class> <!-- comaniket.automation.ecommerce.DemoTest2 -->
+        </test-method> <!-- FileUpload -->
+      </class> <!-- comaniket.automation.ecommerce.FileUploadUsingAutoIt -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
