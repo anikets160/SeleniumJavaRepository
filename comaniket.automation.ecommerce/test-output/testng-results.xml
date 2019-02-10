@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27346" started-at="2019-02-09T16:16:46Z" finished-at="2019-02-09T16:17:13Z">
+  <suite name="Default suite" duration-ms="20800" started-at="2019-02-10T15:31:03Z" finished-at="2019-02-10T15:31:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27346" started-at="2019-02-09T16:16:46Z" finished-at="2019-02-09T16:17:13Z">
-      <class name="comaniket.automation.ecommerce.FileUploadUsingAutoIt">
-        <test-method status="PASS" signature="FileUpload()[pri:0, instance:comaniket.automation.ecommerce.FileUploadUsingAutoIt@402f32ff]" name="FileUpload" duration-ms="27320" started-at="2019-02-09T21:46:46Z" finished-at="2019-02-09T21:47:13Z">
+    <test name="Default test" duration-ms="20800" started-at="2019-02-10T15:31:03Z" finished-at="2019-02-10T15:31:24Z">
+      <class name="comaniket.automation.ecommerce.CalenderDateSelection">
+        <test-method status="PASS" signature="SelectDate()[pri:0, instance:comaniket.automation.ecommerce.CalenderDateSelection@402f32ff]" name="SelectDate" duration-ms="20764" started-at="2019-02-10T21:01:03Z" finished-at="2019-02-10T21:01:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FileUpload -->
-      </class> <!-- comaniket.automation.ecommerce.FileUploadUsingAutoIt -->
+        </test-method> <!-- SelectDate -->
+      </class> <!-- comaniket.automation.ecommerce.CalenderDateSelection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
