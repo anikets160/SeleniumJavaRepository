@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="comaniket.automation.ecommerce.FileUploadUsingAutoIt">
+      <class name="comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility">
         <methods>
-          <include name="FileUpload"/>
+          <include name="ExcelDataRead"/>
         </methods>
-      </class> <!-- comaniket.automation.ecommerce.FileUploadUsingAutoIt -->
+      </class> <!-- comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

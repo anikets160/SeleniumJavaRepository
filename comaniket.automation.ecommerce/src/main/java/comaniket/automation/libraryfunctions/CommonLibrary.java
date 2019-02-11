@@ -1,5 +1,12 @@
 package comaniket.automation.libraryfunctions;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,4 +21,25 @@ public class CommonLibrary {
 		jse.executeScript("arguments[0].setAttribute('value','"+dateValue+"');", element);
 	}
 
+	public static String GetXcelData(int sheetNumber,int row,int column)
+	{
+		XSSFWorkbook wb = null;
+		try {
+			File src = new File("H:\\ExcelTestData\\TestData.xlsx");
+			
+			FileInputStream fis = new FileInputStream(src);
+			
+			wb = new XSSFWorkbook(fis);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		XSSFSheet sheet1 = wb.getSheetAt(sheetNumber);
+			
+		String data = sheet1.getRow(row).getCell(column).getStringCellValue();
+				
+		//wb.close();
+		
+		return data;
+	}
 }

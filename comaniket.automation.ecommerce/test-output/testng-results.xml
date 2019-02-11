@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20800" started-at="2019-02-10T15:31:03Z" finished-at="2019-02-10T15:31:24Z">
+  <suite name="Default suite" duration-ms="1058" started-at="2019-02-11T17:51:34Z" finished-at="2019-02-11T17:51:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20800" started-at="2019-02-10T15:31:03Z" finished-at="2019-02-10T15:31:24Z">
-      <class name="comaniket.automation.ecommerce.CalenderDateSelection">
-        <test-method status="PASS" signature="SelectDate()[pri:0, instance:comaniket.automation.ecommerce.CalenderDateSelection@402f32ff]" name="SelectDate" duration-ms="20764" started-at="2019-02-10T21:01:03Z" finished-at="2019-02-10T21:01:24Z">
+    <test name="Default test" duration-ms="1058" started-at="2019-02-11T17:51:34Z" finished-at="2019-02-11T17:51:36Z">
+      <class name="comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility">
+        <test-method status="PASS" signature="ExcelDataRead()[pri:0, instance:comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility@1810399e]" name="ExcelDataRead" duration-ms="1022" started-at="2019-02-11T23:21:34Z" finished-at="2019-02-11T23:21:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectDate -->
-      </class> <!-- comaniket.automation.ecommerce.CalenderDateSelection -->
+        </test-method> <!-- ExcelDataRead -->
+      </class> <!-- comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
