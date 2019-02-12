@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1058" started-at="2019-02-11T17:51:34Z" finished-at="2019-02-11T17:51:36Z">
+  <suite name="Default suite" duration-ms="26019" started-at="2019-02-12T18:05:01Z" finished-at="2019-02-12T18:05:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1058" started-at="2019-02-11T17:51:34Z" finished-at="2019-02-11T17:51:36Z">
-      <class name="comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility">
-        <test-method status="PASS" signature="ExcelDataRead()[pri:0, instance:comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility@1810399e]" name="ExcelDataRead" duration-ms="1022" started-at="2019-02-11T23:21:34Z" finished-at="2019-02-11T23:21:36Z">
+    <test name="Default test" duration-ms="26019" started-at="2019-02-12T18:05:01Z" finished-at="2019-02-12T18:05:27Z">
+      <class name="comaniket.automation.ecommerce.DataDrivenTest">
+        <test-method status="PASS" signature="DataDrivenTestCase(java.lang.String, java.lang.String)[pri:0, instance:comaniket.automation.ecommerce.DataDrivenTest@62ee68d8]" name="DataDrivenTestCase" duration-ms="14149" started-at="2019-02-12T23:35:01Z" data-provider="testdata" finished-at="2019-02-12T23:35:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ExcelDataRead -->
-      </class> <!-- comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility -->
+        </test-method> <!-- DataDrivenTestCase -->
+        <test-method status="PASS" signature="DataDrivenTestCase(java.lang.String, java.lang.String)[pri:0, instance:comaniket.automation.ecommerce.DataDrivenTest@62ee68d8]" name="DataDrivenTestCase" duration-ms="11832" started-at="2019-02-12T23:35:16Z" data-provider="testdata" finished-at="2019-02-12T23:35:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTestCase -->
+      </class> <!-- comaniket.automation.ecommerce.DataDrivenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

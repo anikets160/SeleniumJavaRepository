@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility">
+      <class name="comaniket.automation.ecommerce.DataDrivenTestUsingXcel">
         <methods>
-          <include name="ExcelDataRead"/>
+          <include name="DataDrivenTestCase"/>
         </methods>
-      </class> <!-- comaniket.automation.ecommerce.ExcelDataReadFromExcelUtility -->
+      </class> <!-- comaniket.automation.ecommerce.DataDrivenTestUsingXcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

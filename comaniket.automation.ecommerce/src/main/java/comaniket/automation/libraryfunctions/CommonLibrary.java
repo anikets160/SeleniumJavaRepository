@@ -13,6 +13,8 @@ import org.openqa.selenium.WebElement;
 
 public class CommonLibrary {
 	
+	static XSSFWorkbook wb;
+	
 	public static void SetDateUsingJS(WebDriver driver,WebElement element,String dateValue)
 	{
 		
@@ -23,7 +25,7 @@ public class CommonLibrary {
 
 	public static String GetXcelData(int sheetNumber,int row,int column)
 	{
-		XSSFWorkbook wb = null;
+		
 		try {
 			File src = new File("H:\\ExcelTestData\\TestData.xlsx");
 			
@@ -42,4 +44,15 @@ public class CommonLibrary {
 		
 		return data;
 	}
+	
+	public static int GetRowCount(int sheetIndex)
+	{
+		int rowCount = wb.getSheetAt(sheetIndex).getLastRowNum();
+		
+		rowCount=rowCount+1;
+		
+		return rowCount;
+		
+	}
+	
 }
