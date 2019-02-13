@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26019" started-at="2019-02-12T18:05:01Z" finished-at="2019-02-12T18:05:27Z">
+  <suite name="Default suite" duration-ms="12137" started-at="2019-02-13T16:29:01Z" finished-at="2019-02-13T16:29:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26019" started-at="2019-02-12T18:05:01Z" finished-at="2019-02-12T18:05:27Z">
-      <class name="comaniket.automation.ecommerce.DataDrivenTest">
-        <test-method status="PASS" signature="DataDrivenTestCase(java.lang.String, java.lang.String)[pri:0, instance:comaniket.automation.ecommerce.DataDrivenTest@62ee68d8]" name="DataDrivenTestCase" duration-ms="14149" started-at="2019-02-12T23:35:01Z" data-provider="testdata" finished-at="2019-02-12T23:35:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password1]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="12137" started-at="2019-02-13T16:29:01Z" finished-at="2019-02-13T16:29:13Z">
+      <class name="comaniket.automation.ecommerce.Alerts">
+        <test-method status="PASS" signature="HandleAlert()[pri:0, instance:comaniket.automation.ecommerce.Alerts@3a82f6ef]" name="HandleAlert" duration-ms="12097" started-at="2019-02-13T21:59:01Z" finished-at="2019-02-13T21:59:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DataDrivenTestCase -->
-        <test-method status="PASS" signature="DataDrivenTestCase(java.lang.String, java.lang.String)[pri:0, instance:comaniket.automation.ecommerce.DataDrivenTest@62ee68d8]" name="DataDrivenTestCase" duration-ms="11832" started-at="2019-02-12T23:35:16Z" data-provider="testdata" finished-at="2019-02-12T23:35:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataDrivenTestCase -->
-      </class> <!-- comaniket.automation.ecommerce.DataDrivenTest -->
+        </test-method> <!-- HandleAlert -->
+      </class> <!-- comaniket.automation.ecommerce.Alerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
