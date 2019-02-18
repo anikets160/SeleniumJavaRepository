@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="comaniket.automation.ecommerce.Alerts">
+      <class name="comaniket.automation.ecommerce.ReverseString">
         <methods>
-          <include name="HandleAlert"/>
+          <include name="ReverseString"/>
         </methods>
-      </class> <!-- comaniket.automation.ecommerce.Alerts -->
+      </class> <!-- comaniket.automation.ecommerce.ReverseString -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

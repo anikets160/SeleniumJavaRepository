@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15187" started-at="2019-02-14T17:07:04Z" finished-at="2019-02-14T17:07:19Z">
+  <suite name="Default suite" duration-ms="78" started-at="2019-02-18T16:23:44Z" finished-at="2019-02-18T16:23:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15187" started-at="2019-02-14T17:07:04Z" finished-at="2019-02-14T17:07:19Z">
-      <class name="comaniket.automation.ecommerce.Log4jExample">
-        <test-method status="PASS" signature="HandleAlert()[pri:0, instance:comaniket.automation.ecommerce.Log4jExample@643b1d11]" name="HandleAlert" duration-ms="15135" started-at="2019-02-14T22:37:04Z" finished-at="2019-02-14T22:37:19Z">
+    <test name="Default test" duration-ms="78" started-at="2019-02-18T16:23:44Z" finished-at="2019-02-18T16:23:44Z">
+      <class name="comaniket.automation.ecommerce.ReverseStringUsingStringBuffer">
+        <test-method status="PASS" signature="ReverseString()[pri:0, instance:comaniket.automation.ecommerce.ReverseStringUsingStringBuffer@215be6bb]" name="ReverseString" duration-ms="28" started-at="2019-02-18T21:53:44Z" finished-at="2019-02-18T21:53:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HandleAlert -->
-      </class> <!-- comaniket.automation.ecommerce.Log4jExample -->
+        </test-method> <!-- ReverseString -->
+      </class> <!-- comaniket.automation.ecommerce.ReverseStringUsingStringBuffer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
