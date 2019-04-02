@@ -1,58 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="327" started-at="2019-03-27T17:13:55Z" finished-at="2019-03-27T17:13:56Z">
+  <suite name="Default suite" duration-ms="51" started-at="2019-04-02T17:49:50Z" finished-at="2019-04-02T17:49:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="327" started-at="2019-03-27T17:13:55Z" finished-at="2019-03-27T17:13:56Z">
-      <class name="comaniket.automation.ecommerce.DemoTest">
-        <test-method status="FAIL" signature="Intialize()[pri:0, instance:comaniket.automation.ecommerce.DemoTest@62ee68d8]" name="Intialize" is-config="true" duration-ms="0" started-at="2019-03-27T22:43:55Z" finished-at="2019-03-27T22:43:55Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at comaniket.automation.base.Base.Intialize(Base.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
-	at org.testng.TestRunner.run(TestRunner.java:609)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test name="Default test" duration-ms="51" started-at="2019-04-02T17:49:50Z" finished-at="2019-04-02T17:49:50Z">
+      <class name="comaniket.automation.tests.TwoDimensionalArray">
+        <test-method status="PASS" signature="TwoDimArray()[pri:0, instance:comaniket.automation.tests.TwoDimensionalArray@215be6bb]" name="TwoDimArray" duration-ms="18" started-at="2019-04-02T23:19:50Z" finished-at="2019-04-02T23:19:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Intialize -->
-        <test-method status="SKIP" signature="Subtract()[pri:0, instance:comaniket.automation.ecommerce.DemoTest@62ee68d8]" name="Subtract" duration-ms="2" started-at="2019-03-27T22:43:56Z" finished-at="2019-03-27T22:43:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Subtract -->
-        <test-method status="SKIP" signature="Sum()[pri:0, instance:comaniket.automation.ecommerce.DemoTest@62ee68d8]" name="Sum" duration-ms="2" started-at="2019-03-27T22:43:56Z" finished-at="2019-03-27T22:43:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sum -->
-        <test-method status="SKIP" signature="Cleanup()[pri:0, instance:comaniket.automation.ecommerce.DemoTest@62ee68d8]" name="Cleanup" is-config="true" duration-ms="0" started-at="2019-03-27T22:43:56Z" finished-at="2019-03-27T22:43:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Cleanup -->
-      </class> <!-- comaniket.automation.ecommerce.DemoTest -->
+        </test-method> <!-- TwoDimArray -->
+      </class> <!-- comaniket.automation.tests.TwoDimensionalArray -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

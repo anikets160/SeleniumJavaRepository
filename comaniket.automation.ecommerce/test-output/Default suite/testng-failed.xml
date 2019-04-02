@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="comaniket.automation.ecommerce.DemoTest">
+      <class name="comaniket.automation.tests.ArrayConcepts">
         <methods>
-          <include name="Subtract"/>
-          <include name="Intialize"/>
-          <include name="Sum"/>
+          <include name="ArrayConcept"/>
         </methods>
-      </class> <!-- comaniket.automation.ecommerce.DemoTest -->
+      </class> <!-- comaniket.automation.tests.ArrayConcepts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
