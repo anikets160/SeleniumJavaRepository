@@ -2,7 +2,9 @@ package comaniket.automation.ecommerce;
 
 import org.testng.annotations.Test;
 
-public class DemoTest {
+import comaniket.automation.base.Base;
+
+public class DemoTest extends Base {
 	
 	@Test
 	public void Sum()
